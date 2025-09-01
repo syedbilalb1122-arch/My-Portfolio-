@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Client Info</title>
+    <link rel="stylesheet" href="template.css" />
+</head>
+<body>
+    <div class="containers">
+    
+    <br>
+    <center>
+        <form action="#" method="get" enctype="multipart/form-data">
+            <br>
+            <center><h1 style="margin-top: 10px; color: #ffdb00;">DELIVERY INFORMATION</h1></center>
+            <br>
+            <br>
+            <div>
+                <label for="country">Country/Region</label><br/>
+                <select id="country" name="country" required>
+                    <option value="Pakistan" selected>Pakistan</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </div>
+            <br />
+            <div>
+                <label for="fullname">Full name (First and Last name)</label><br />
+                <input type="text" id="fullname" name="fullname" required />
+            </div>
+            <br />
+            <div>
+                <label for="street1"><b>Address</b></label><br />
+                <input type="text" id="street2" name="street2" placeholder="Enter your address"/>
+            </div>
+            <br />
+            <div>
+                <label for="city">City</label><br />
+                <input type="text" id="city" name="city" required />
+            </div>
+            <br />
+            <div>
+                <label for="state">State / Province / Region</label><br />
+                <input type="text" id="state" name="state" required />
+            </div>
+            <br />
+            <div>
+                <label for="zipcode">Email</label><br />
+                <input type="text" id="zipcode" name="zipcode" placeholder="Enter your email" required/>
+            </div>
+            <br />
+            <div>
+                <label for="phone">Phone number</label><br />
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+                <br />
+                <small>May be used to assist delivery</small>
+            </div>
+            <br />
+            <div>
+                <input type="checkbox" id="defaultAddress" name="defaultAddress" />
+                <label for="defaultAddress">Use as my default address.</label>
+            </div>
+            <br />
+            <div>
+                <button
+                    type="submit"
+                    style="background-color: #ffdb00; border: none; padding: 10px 20px; border-radius: 20px; cursor: pointer;"
+ >
+                    Use this address
+                </button>
+            </div>
+        </form>
+    </center>
+    </div>
+</body>
+</html>

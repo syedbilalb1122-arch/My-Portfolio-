@@ -1,0 +1,72 @@
+
+.bdy{
+    background-color: skyblue;
+     color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.class {
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgb(249, 248, 247);
+    padding: 40px;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.chair {
+    flex: 1;
+    color: rgb(16, 15, 15);
+}
+
+.chair h3 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.chair p {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    max-width: 400px;
+}
+
+.picc-1 {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.picc-1 img {
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(91, 192, 190, 0.7);
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.bench {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.bench img {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0 0 60px 15px rgba(91, 192, 190, 0.7);
+    object-fit: cover;
+}
+
